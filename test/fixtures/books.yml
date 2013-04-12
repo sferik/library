@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+advanced_rails:
+  cover_url: "http://akamaicovers.oreilly.com/images/9780596510329/cat.gif"
+  isbn: 0596510322
+  page_count: 342
+  author: "Brad Ediger"
+  title: "Advanced Rails"
+  price: 3499
+  published_on: 2008-12-11
+  description: "It's a book about advanced Rails. It's pretty good."
+
+code_gen:
+  cover_url: "http://www.manning.com/herrington/herrington_cover150.jpg"
+  isbn: 1930110979
+  page_count: 342
+  author: "Jack Herrington"
+  title: "Code Generation in Action"
+  price: 4495
+  published_on: 2003-01-01
+  description: "A book about code generation. In action!"

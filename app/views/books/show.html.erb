@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cover url:</b>
+  <%= @book.cover_url %>
+</p>
+
+<p>
+  <b>Isbn:</b>
+  <%= @book.isbn %>
+</p>
+
+<p>
+  <b>Page count:</b>
+  <%= @book.page_count %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @book.authors.collect{|a| a.name}.join(', ') %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @book.title %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= price_in_dollars(@book.price) %>
+</p>
+
+<p>
+  <b>Published on:</b>
+  <%= @book.published_on %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @book.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>
